@@ -1,16 +1,18 @@
 <!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>DHENCUN on Solana</title> <link rel="stylesheet" href="style.css"> <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script> </head> <body> <nav> <a href="#hero">Home</a> <a href="#about-coin">About</a> <a href="#how-to-buy">How to Buy</a> <a href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=DQT4NUojTpvyP6N9CDyrbgYwJohoWMZbyYTbQnTw4X6Q&outputSymbol=DHENCUN&fixed=in" target="_blank">Buy $DHENCUN</a> <a href="https://dexscreener.com/solana/4vqt2au8a9e8ysxajgncrie825t69zybjso6yj5hw1v4" target="_blank">Dexscreener</a> </nav>
   
     <section id="hero">
-        <div id="threeCanvas"></div>
+        <canvas id="shader-canvas"></canvas>
         <div class="content">
           <h1>$DHENCUN</h1>
           <p class="tagline">The bestest hardforck is here.</p>
           <p>just one more hardforck we promise it wall work</p>
           <div class="hero-button-container">
             <a href="#how-to-buy" class="btn">Buy $DHENCUN</a>
-          <img src="Screenshot 2024-03-13 at 14.53.29.jpg" alt="DENCUN Image" class="hero-image">
+            <img src="Screenshot 2024-03-13 at 14.53.29.jpg" alt="DENCUN Image" class="hero-image">
+          </div>
         </div>
       </section>
+      
 
 
   <main>
@@ -75,6 +77,6 @@
       </div>
       <p>&copy; 2023 DhENCUN. All rights reserved.</p>
   </footer>
-  <script src="sketch.js"></script>
+  <script src="shader-background.js"></script>
   <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
   </body> </html>
