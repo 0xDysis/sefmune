@@ -19,7 +19,7 @@ uniform float iTime;
 uniform vec2 iResolution;
 uniform vec2 iMouse;
 
-  // "Planet K" by Kali
+  
 
 const float Saturation= .9;
 const float ColorDensity= 1.4;
